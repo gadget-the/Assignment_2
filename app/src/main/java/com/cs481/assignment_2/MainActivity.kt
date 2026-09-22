@@ -17,4 +17,44 @@ class MainActivity : AppCompatActivity() {
             insets
         }
     }
+
+    fun getGrade(score : Int) : String {
+//        return when (score) {
+//            0..70
+//        }
+        when (score) {
+            in 0..70 -> {
+                return "F"
+                // should the grade letters be in strings.xml? probably
+            }
+            in 70..73 -> {
+                return "C-"
+            }
+            in 73..77 -> {
+                return "C"
+            }
+            in 77..80 -> {
+                return "C+"
+            }
+            in 80..83 -> {
+                return "B-"
+            }
+            in 83..87 -> {
+                return "B"
+            }
+            in 87..90 -> {
+                return "B+"
+            }
+            in 90..94 -> {
+                return "A-"
+            }
+            in 94..100 -> {
+                return "A"
+            }
+            else -> {
+                // invalid input
+                return "invalid input"
+            }
+        }
+    }
 }
