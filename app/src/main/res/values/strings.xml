@@ -5,14 +5,22 @@
     <string name="emails">emails</string>
     <string name="output">output</string>
     <string name="inputDefault">Name</string>
+    <string name="group_names_label">Group Members</string>
     <string-array name="group_members">
-        <item>Javid </item>
+        <item>Javid Moghaddam</item>
         <item>Ricky Arnold</item>
-        <item>William </item>
+        <item>William Nguyen</item>
     </string-array>
     <string-array name="emails">
         <item>Javid\'s email</item>
         <item>arnol074@csusm.edu</item>
-        <item>William\'s email</item>
+        <item>nguye1160@csusm.edu</item>
     </string-array>
+    <string name="grade_calculator_label">Grade Calculator</string>
+    <string name="hint_score">Enter score</string>
+    <string name="btn_show_grade">Show Grade</string>
+    <string name="grade_result_format">You got a %1$s grade.</string>
+    <string name="error_empty_score">Please enter a score.</string>
+    <string name="error_invalid_number">Please enter a valid number.</string>
+    <string name="error_out_of_range">Score must be between 0 and 100.</string>
 </resources>
