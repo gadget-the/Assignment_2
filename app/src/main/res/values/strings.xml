@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Assignment_2</string>
+    <string name="button_text">Show Grade</string>
+    <string name="names">names</string>
+    <string name="emails">emails</string>
+    <string name="output">output</string>
+    <string name="inputDefault">Name</string>
+    <string-array name="group_members">
+        <item>Javid </item>
+        <item>Ricky Arnold</item>
+        <item>William </item>
+    </string-array>
+    <string-array name="emails">
+        <item>Javid\'s email</item>
+        <item>arnol074@csusm.edu</item>
+        <item>William\'s email</item>
+    </string-array>
 </resources>
