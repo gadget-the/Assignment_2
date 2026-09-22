@@ -1,4 +1,5 @@
 <resources>
+    <string name="group_image">Our group image</string>
     <string name="app_name">Assignment_2</string>
     <string name="button_text">Show Grade</string>
     <string name="names">names</string>
@@ -12,7 +13,7 @@
         <item>William Nguyen</item>
     </string-array>
     <string-array name="emails">
-        <item>Javid\'s email</item>
+        <item>mogha007@csusm.edu</item>
         <item>arnol074@csusm.edu</item>
         <item>nguye1160@csusm.edu</item>
     </string-array>
