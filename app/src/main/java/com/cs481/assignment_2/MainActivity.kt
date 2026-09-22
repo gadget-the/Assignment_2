@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
 //            0..70
 //        }
         when (score) {
-            in 0..70 -> {
+            in 0..69 -> {
                 return "F"
                 // should the grade letters be in strings.xml? probably
             }
